@@ -1,0 +1,12 @@
+.plateform {
+  @apply flex flex-col items-center bg-gradient-to-r from-[#1F638B] to-[#049CA8] text-center text-white text-[20px] md:text-[30px] font-[500] my-6 py-12 px-4;
+  h1 {
+    @apply font-extrabold text-[32px];
+  }
+  .input_container {
+    @apply flex items-center relative;
+    inpuT {
+      @apply my-8 capitalize outline-none text-[#424040] py-2 pl-4 pr-12 rounded-[30px];
+    }
+  }
+}

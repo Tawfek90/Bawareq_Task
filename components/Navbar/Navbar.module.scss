@@ -1,0 +1,25 @@
+.bars {
+  @apply w-[40px] h-[40px] md:hidden border  rounded-[5px] flex justify-center items-center;
+  .icon {
+    @apply text-[30px] text-[#7C7C7D] cursor-pointer;
+  }
+}
+
+.regestiration {
+  @apply hidden md:flex items-center;
+  .Regestir {
+    @apply bg-gradient-to-r from-[#1F638B] to-[#049CA8] ml-8 text-[#FFF]  text-[24px]  rounded-[23px] py-1 px-4 w-[160px] cursor-pointer;
+  }
+}
+.list {
+  @apply hidden md:flex items-center justify-between sm:justify-around flex-wrap;
+  .item {
+    @apply ml-4 text-[20px] text-[#235A86];
+  }
+}
+.small {
+  @apply bg-[#f8f9fa] md:hidden sticky top-20 z-20;
+  .item {
+    @apply ml-4 text-[20px] text-[#235A86] mb-4 text-center;
+  }
+}

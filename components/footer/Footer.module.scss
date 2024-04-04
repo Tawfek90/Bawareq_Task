@@ -1,0 +1,28 @@
+.foot {
+  .footer_container {
+    @apply w-[90%]  mx-auto my-4 py-4 px-3 grid grid-cols-1 gap-[20px] justify-items-center md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 items-center;
+    img {
+      @apply w-[250px];
+    }
+    .content {
+      @apply text-[#235A9D];
+      p {
+        @apply my-4;
+      }
+    }
+    .icons_container {
+      p {
+        @apply text-[#235A86] font-bold text-[20px];
+      }
+      .icons {
+        @apply flex justify-between items-center text-[#FFF] my-3;
+        .item {
+          @apply w-[30px] h-[30px] rounded-full bg-[#235A86] flex items-center justify-center;
+        }
+      }
+    }
+    .vision {
+      @apply w-[200px];
+    }
+  }
+}

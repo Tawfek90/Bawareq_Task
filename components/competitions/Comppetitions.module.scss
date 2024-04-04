@@ -1,0 +1,22 @@
+.competition {
+  box-shadow: -7px 0px 10px 6px #bdb8b8;
+  @apply text-center md:text-right flex flex-col items-center md:flex-row justify-between bg-[#E7E9EC] gap-[20px] h-[90%];
+  .intro {
+    @apply py-6 px-2  flex-1;
+    h2 {
+      @apply text-[#235A86] text-[20px] my-4 font-bold;
+    }
+    p {
+      @apply text-[#235A86] text-[20px] md:text-[32px]  my-4;
+    }
+    button {
+      @apply w-[267px] h-[49px] mt-8 text-[24px]  cursor-pointer font-bold text-[#FFF] bg-gradient-to-r from-[#1F638B] to-[#049CA8] rounded-[23px];
+    }
+  }
+  .img_container {
+    @apply flex-1 my-4;
+    img {
+      @apply w-[90%] min-w-[300px];
+    }
+  }
+}
